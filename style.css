@@ -24,17 +24,23 @@ body {
 }
 
 .wrapper {
-    max-width: 70%;
+    width: 1600px;
+    max-width: auto;
     margin: 0 auto;
     min-height: 100%;
     overflow: hidden;
 }
 
 /*---HEADER---*/
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
 
-/* header{
-
-} */
+header .logo {
+    margin-right: 150px;
+}
 
 header .search_field {
     display: flex;
@@ -63,6 +69,8 @@ header .search_field form input {
 
 header .setting {
     position: relative;
+    margin-left: 62px;
+    margin-right: 74px;
     width: 53px;
     height: 53px;
     border-radius: 100%;
@@ -81,6 +89,16 @@ header .user-information {
     align-items: center;
     border-left: 1px solid #B4BCC4;
     max-height: 53px;
+}
+
+header .user-information .marker {
+    margin-left: 40px;
+    margin-right: 17px;
+}
+
+header .user-information span {
+    cursor: pointer;
+    margin-right: 88px;
 }
 
 header .user-information .notification {
@@ -106,4 +124,9 @@ header .user-information .notification .notification-icon {
     right: -2px;
     top: -7px;
     border-radius: 100%;
+}
+
+header .user-information .avatar {
+    cursor: pointer;
+    margin-left: 33px;
 }
