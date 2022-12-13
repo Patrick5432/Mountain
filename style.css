@@ -75,3 +75,35 @@ header .setting img {
     top: 15px;
     left: 15px;
 }
+
+header .user-information {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #B4BCC4;
+    max-height: 53px;
+}
+
+header .user-information .notification {
+    position: relative;
+    width: 53px;
+    height: 53px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+header .user-information .notification form img {
+    position: absolute;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+header .user-information .notification .notification-icon {
+    position: absolute;
+    background: orange;
+    width: 10px;
+    height: 10px;
+    right: -2px;
+    top: -7px;
+    border-radius: 100%;
+}
