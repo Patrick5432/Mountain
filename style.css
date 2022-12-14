@@ -35,7 +35,6 @@ body {
     overflow: hidden;
 }
 
-/*---HEADER---*/
 header {
     display: flex;
     justify-content: center;
@@ -109,7 +108,7 @@ header .user-information .notification {
     position: relative;
     width: 53px;
     height: 53px;
-    border: 1px solid black;
+    border: 1px solid #B4BCC4;
     border-radius: 100%;
 }
 
@@ -135,13 +134,9 @@ header .user-information .avatar {
     margin-left: 33px;
 }
 
-/*---MAIN---*/
-
 main {
     display: flex;
 }
-
-/*--NAV--*/
 
 main nav {
     margin-top: 72px;
@@ -180,8 +175,6 @@ main nav .SingOut {
     margin-top: 210px;
 }
 
-/*--MAIN-BLOCK--*/
-
 main .Discover-World {
     margin-top: 58px;
     margin-left: 81px;
@@ -206,6 +199,7 @@ main .Discover-World .news-filters li {
 
 main .Discover-World .news-filters li:hover {
     color: orange;
+    transition: .5s;
 }
 
 main .Discover-World .places-of-interest {
@@ -413,4 +407,169 @@ main .Discover-World footer ul #selected-event .select-button {
     padding-top: 34px;
     padding-bottom: 34px;
     padding-right: 23px;
+    cursor: pointer;
+}
+
+main .short-news .big-picture-travel-and-favorite-icon {
+    position: relative;
+}
+
+main .short-news .big-picture-travel {
+    margin-top: 58px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px 1px #06645970;
+}
+
+main .short-news .favorite {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+main .short-news .favorite img {
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+main .short-news .big-picture-travel-and-favorite-icon ul {
+    display: flex;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    bottom: 35px;
+    left: 34px;
+    right: 34px;
+}
+
+main .short-news .big-picture-travel-and-favorite-icon ul img {
+    cursor: pointer;
+}
+
+main .short-news .big-picture-travel-and-favorite-icon ul li {
+    margin-right: 5.5px;
+    margin-left: 5.5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+main .short-news .big-picture-travel-and-favorite-icon ul .first-picture {
+    margin-left: 11.5px;
+}
+
+main .short-news .big-picture-travel-and-favorite-icon ul .last-picture {
+    margin-right: 11.5px;
+}
+
+main .short-news .description .heading-and-read-icon {
+    display: flex;
+    margin-top: 25px;
+}
+
+main .short-news .description .heading-and-read-icon h1 {
+    font-size: 30px;
+    width: 170px;
+    color: #18333E;
+}
+
+main .short-news .description .heading-and-read-icon img {
+    margin-left: 204px;
+    cursor: pointer;
+}
+
+main .short-news .description p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+main .short-news .price-books {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+}
+
+main .short-news .price-books .price-tag {
+    color: #18333E;
+}
+
+main .short-news .price-books .price-tag p {
+    font-size: 16px;
+}
+
+main .short-news .price-books .price-tag h2 {
+    font-size: 40px;
+}
+
+main .short-news .price-books span {
+    font-size: 18px;
+    color: white;
+    background: #18333E;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 113px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+main .short-news .picture-min {
+    margin-top: 46px;
+}
+
+main .short-news .picture-min .picture {
+    border-radius: 30px;
+}
+
+main .short-news .picture-min li {
+    display: flex;
+    margin-top: 50px;
+}
+
+main .short-news .picture-min li .country {
+    margin-left: 6px;
+    margin-top: 30px;
+}
+
+main .short-news .picture-min li .country h4 {
+    font-size: 22px;
+    color: #18333E;
+    font-weight: 600;
+}
+
+main .short-news .picture-min li .country .marker {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #18333E;
+    margin-top: 8px;
+}
+
+main .short-news .picture-min li .circle-favorite {
+    position: relative;
+    border-radius: 100%;
+    background: #E9F1FA;
+    width: 53px;
+    height: 53px;
+    margin-left: 62px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+main .short-news .picture-min .circle-favorite .favorite-short-picture {
+    position: absolute;
+    bottom: 16px;
+    left: 17px;
+}
+
+main .short-news .picture-min .second-short-picture .circle-favorite {
+    margin-left: 72px;
+}
+
+main .short-news .picture-min .third-short-picture .circle-favorite {
+    margin-left: 80px;
 }
