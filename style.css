@@ -135,6 +135,13 @@ header .user-information .avatar {
 }
 
 /*---MAIN---*/
+
+main {
+    display: flex;
+}
+
+/*--NAV--*/
+
 main nav {
     margin-top: 72px;
 }
@@ -143,8 +150,11 @@ main nav li {
     display: flex;
 }
 
-main nav ul li img{
+main nav ul li {
     margin-bottom: 64px;
+}
+
+main nav ul li img {
     padding-left: 70px;
 }
 
@@ -167,4 +177,30 @@ main nav ul li a {
 
 main nav .SingOut {
     margin-top: 35px;
+}
+
+/*--MAIN-BLOCK--*/
+
+main .Discover-World {
+    margin-top: 58px;
+    margin-left: 81px;
+}
+
+main .Discover-World h1 {
+    font-size: 30px;
+    color: #18333E;
+}
+
+main .Discover-World .news-filters {
+    display: flex;
+    margin-top: 18px;
+}
+
+main .Discover-World .news-filters li {
+    margin-right: 57px;
+    cursor: pointer;
+}
+
+main .Discover-World .news-filters li:hover {
+    color: orange;
 }
