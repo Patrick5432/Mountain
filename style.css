@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
 }
 
 a {
@@ -59,8 +60,8 @@ header .search_field img {
 
 header .search_field form input {
     padding-left: 14px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
     width: 606px;
     color: #18333E;
     outline: none;
@@ -129,4 +130,22 @@ header .user-information .notification .notification-icon {
 header .user-information .avatar {
     cursor: pointer;
     margin-left: 33px;
+}
+
+/*---MAIN---*/
+main nav {
+    margin-top: 72px;
+}
+
+main nav ul li {
+    margin-bottom: 64px;
+}
+
+main nav ul li a {
+    color: #18333E;
+    margin-left: 16px;
+}
+
+main nav .SingOut {
+    margin-top: 146px;
 }
