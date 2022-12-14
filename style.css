@@ -198,9 +198,66 @@ main .Discover-World .news-filters {
 
 main .Discover-World .news-filters li {
     margin-right: 57px;
+    color: #18333E;
+    font-size: 16px;
     cursor: pointer;
 }
 
 main .Discover-World .news-filters li:hover {
     color: orange;
+}
+
+main .Discover-World .places-of-interest {
+    display: flex;
+}
+
+main .Discover-World .places-of-interest li {
+    margin-right: 30px;
+    margin-top: 37px;
+}
+
+main .Discover-World .places-of-interest p {
+    margin-top: 9px;
+    font-size: 22px;
+    color: #18333E;
+    font-weight: 600;
+}
+
+main .Discover-World .places-of-interest .places {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+main .Discover-World .places-of-interest #First {
+    box-shadow: 0 5px 10px 1px #063248;
+}
+
+main .Discover-World .places-of-interest #Second {
+    box-shadow: 0 5px 10px 1px #fe7400a8;
+}
+
+main .Discover-World .places-of-interest #Third {
+    box-shadow: 0 5px 10px 1px #5d7ecf;
+}
+
+main .Discover-World .places-of-interest .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+}
+
+main .Discover-World .places-of-interest .rating .marker {
+    width: 14px;
+    height: 16px;
+}
+
+main .Discover-World .places-of-interest .rating p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+main .Discover-World .places-of-interest .rating .stars-rating {
+    margin-top: 10px;
 }
