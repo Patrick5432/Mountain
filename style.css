@@ -12,6 +12,7 @@ a {
 
 button {
     border: none;
+    background: none;
 }
 
 li {
@@ -21,7 +22,7 @@ li {
 body {
     height: 100%;
     line-height: 1;
-    background: #E5E5E5;
+    background: white;
     width: 1600px;
     max-width: auto;
     margin: 0 auto;
@@ -347,4 +348,69 @@ main .Discover-World .Event-Dates .date li p {
 main .Discover-World .Event-Dates .date li .date-number {
     margin-top: 11px;
     font-size: 25px;
+}
+
+main .Discover-World footer ul {
+    display: flex;
+}
+
+main .Discover-World footer ul .middle-picture {
+    margin-left: 45px;
+    margin-top: 43px;
+    margin-right: 45px;
+}
+
+main .Discover-World footer ul .middle-picture img {
+    border-radius: 25px;
+    box-shadow: 0 3px 5px 1px #a65961;
+}
+
+main .Discover-World footer ul .last-picture {
+    margin-top: 43px;
+}
+
+main .Discover-World footer ul .last-picture img {
+    border-radius: 25px;
+    box-shadow: 0 3px 5px 1px #c1def9;
+}
+
+main .Discover-World footer ul #selected-event {
+    display: flex;
+    margin-top: 43px;
+    max-width: 457px;
+    max-height: 119px;
+    background: #18333E;
+    border-radius: 25px;
+}
+
+main .Discover-World footer ul #selected-event .picture {
+    padding-left: 23px;
+}
+
+main .Discover-World footer ul #selected-event .names-and-rating {
+    margin-left: 12px;
+    margin-top: 36px;
+}
+
+main .Discover-World footer ul #selected-event .names-and-rating p {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+main .Discover-World footer ul #selected-event .names-and-rating .rating {
+    display: flex;
+    align-items: center;
+}
+
+main .Discover-World footer ul #selected-event .names-and-rating .rating p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+main .Discover-World footer ul #selected-event .select-button {
+    margin-left: 89px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 23px;
 }
