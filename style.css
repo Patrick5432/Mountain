@@ -176,7 +176,7 @@ main nav ul li a {
 }
 
 main nav .SingOut {
-    margin-top: 35px;
+    margin-top: 210px;
 }
 
 /*--MAIN-BLOCK--*/
@@ -217,15 +217,34 @@ main .Discover-World .places-of-interest li {
 }
 
 main .Discover-World .places-of-interest p {
-    margin-top: 9px;
+    margin-top: 15px;
     font-size: 22px;
     color: #18333E;
     font-weight: 600;
 }
 
-main .Discover-World .places-of-interest .places {
+main .Discover-World .places-of-interest .place-and-favorite-icon {
+    position: relative;
+}
+
+main .Discover-World .places-of-interest .place-and-favorite-icon .places {
     border-radius: 30px;
     cursor: pointer;
+}
+
+main .Discover-World .places-of-interest .place-and-favorite-icon .favorite {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+main .Discover-World .places-of-interest .place-and-favorite-icon .favorite img {
+    margin-top: 15px;
+    margin-left: 13px;
 }
 
 main .Discover-World .places-of-interest #First {
@@ -255,9 +274,77 @@ main .Discover-World .places-of-interest .rating p {
     font-size: 16px;
     font-weight: 300;
     margin-left: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 main .Discover-World .places-of-interest .rating .stars-rating {
     margin-top: 10px;
+}
+
+main .Discover-World .Event-Dates {
+    margin-top: 49px;
+}
+
+main .Discover-World .Event-Dates .heading {
+    display: flex;
+    align-items: center;
+}
+
+main .Discover-World .Event-Dates .heading h1 {
+    font-size: 30px;
+}
+
+main .Discover-World .Event-Dates .heading span {
+    cursor: pointer;
+    margin-left: 460px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #B4BCC4;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #18333E;
+    font-weight: 500;
+}
+
+main .Discover-World .Event-Dates .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .Discover-World .Event-Dates .date .current-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #18333E;
+    border-radius: 32px;
+    height: 111px;
+    width: 64px;
+    color: #FFFFFF;
+}
+
+main .Discover-World .Event-Dates .date .current-day img {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+main .Discover-World .Event-Dates .date .current-day .date-number {
+    font-size: 25px;
+}
+
+main .Discover-World .Event-Dates .date li {
+    margin-right: 75px;
+    margin-top: 64px;
+}
+
+main .Discover-World .Event-Dates .date li p {
+    font-size: 16px;
+}
+
+main .Discover-World .Event-Dates .date li .date-number {
+    margin-top: 11px;
+    font-size: 25px;
 }
